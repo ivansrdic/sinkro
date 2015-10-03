@@ -17,6 +17,13 @@ Naslovna stranica
                 <div class="item active" style="background-image: url(images/slider/bg1.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
+                        <div class="row">
+                            <div class="col-sm-3 hidden-xs animation animated-item-4 col-sm-offset-2">
+                                <div class="slider-img">
+                                    <img src="{{ asset('images/logo/sinkro_logo.png') }}" class="img-responsive">
+                                </div>
+                            </div>
+                        </div>
                             <div class="col-sm-6">
                                 <div class="carousel-content">
                                     <h1 class="animation animated-item-1">Sinkro d.o.o.</h1>
@@ -25,11 +32,7 @@ Naslovna stranica
                                 </div>
                             </div>
 
-                            <div class="col-sm-6 hidden-xs animation animated-item-4">
-                                <div class="slider-img">
-                                    <img src="{{ asset('images/logo/sinkro_logo.png') }}" class="img-responsive">
-                                </div>
-                            </div>
+                            
 
                         </div>
                     </div>

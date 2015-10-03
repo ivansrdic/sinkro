@@ -298,7 +298,7 @@ input.search-form:hover {
 }
 
 .navbar-brand > img {
-  position: relative;
+  position: absolute;
   top: 0px;
   left: 230px;
   width: 100px;
