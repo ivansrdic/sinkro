@@ -28,7 +28,7 @@ Naslovna stranica
                                 <div class="carousel-content">
                                     <h1 class="animation animated-item-1">Sinkro d.o.o.</h1>
                                     <h2 class="animation animated-item-2">Dobro došli na naše stranice!</h2>
-                                    <a class="btn-slide animation animated-item-3" href="#">Read More</a>
+                                    <a class="btn-slide animation animated-item-3" href="{{ route('aboutus') }}">Ponuda</a>
                                 </div>
                             </div>
 
@@ -41,11 +41,11 @@ Naslovna stranica
                 <div class="item" style="background-image: url(images/slider/bg2.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
-                            <div class="col-sm-3">
+                            <div class="col-sm-6">
                                 <div class="carousel-content">
-                                    <h1 class="animation animated-item-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
-                                    <h2 class="animation animated-item-2">Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...</h2>
-                                    <a class="btn-slide animation animated-item-3" href="#">Read More</a>
+                                    <h1 class="animation animated-item-1" style=" -webkit-text-stroke: 1px #3498db;">Široka ponuda</h1>
+                                    <h2 class="animation animated-item-2">Istražite našu raznovrsnu ponudu svih vrsta industrijskih kotača i kotačića.</h2>
+                                    <a class="btn-slide animation animated-item-3" href="{{ route('search') }}">Ponuda</a>
                                 </div>
                             </div>
 
@@ -62,11 +62,11 @@ Naslovna stranica
                 <div class="item" style="background-image: url(images/slider/bg3.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
-                            <div class="col-sm-9">
+                            <div class="col-sm-6">
                                 <div class="carousel-content">
-                                    <h1 class="animation animated-item-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
-                                    <h2 class="animation animated-item-2">Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...</h2>
-                                    <a class="btn-slide animation animated-item-3" href="#">Read More</a>
+                                    <h1 class="animation animated-item-1">Kontaktirajte nas</h1>
+                                    <h2 class="animation animated-item-2">Ukoliko imate pitanja u vezi naše ponude ili Vam trebaju dodatne informacije slobodno nam se obratite</h2>
+                                    <a class="btn-slide animation animated-item-3" href="{{ route('contact') }}">Contact</a>
                                 </div>
                             </div>
                             <div class="col-sm-6 hidden-xs animation animated-item-4">
@@ -98,7 +98,7 @@ Naslovna stranica
                 <div class="features">
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
-                            <i class="fa fa-bullhorn"></i>
+                            <i class="fa fa-graduation-cap"></i>
                             <h2>Fresh and Clean</h2>
                             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
                         </div>
@@ -106,7 +106,7 @@ Naslovna stranica
 
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
-                            <i class="fa fa-comments"></i>
+                            <i class="fa fa-map-marker"></i>
                             <h2>Retina ready</h2>
                             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
                         </div>
@@ -114,7 +114,7 @@ Naslovna stranica
 
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
-                            <i class="fa fa-cloud-download"></i>
+                            <i class="fa fa-question"></i>
                             <h2>Easy to customize</h2>
                             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
                         </div>
@@ -122,7 +122,7 @@ Naslovna stranica
                 
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
-                            <i class="fa fa-leaf"></i>
+                            <i class="fa fa-truck"></i>
                             <h2>Adipisicing elit</h2>
                             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
                         </div>
@@ -130,7 +130,7 @@ Naslovna stranica
 
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
-                            <i class="fa fa-cogs"></i>
+                            <i class="fa fa-car"></i>
                             <h2>Sed do eiusmod</h2>
                             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
                         </div>
@@ -138,7 +138,7 @@ Naslovna stranica
 
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
-                            <i class="fa fa-heart"></i>
+                            <i class="fa fa-binoculars"></i>
                             <h2>Labore et dolore</h2>
                             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
                         </div>
