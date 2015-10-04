@@ -13,16 +13,18 @@ Naslovna stranica
                 <li data-target="#main-slider" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
-
                 <div class="item active" style="background-image: url(images/slider/bg1.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
                         <div class="row">
-                            <div class="col-sm-3 hidden-xs animation animated-item-4 col-sm-offset-2">
+                            <div class="col-sm-3 hidden-xs animation animated-item-4 col-sm-offset-0">
                                 <div class="slider-img">
                                     <img src="{{ asset('images/logo/sinkro_logo.png') }}" class="img-responsive">
                                 </div>
                             </div>
+                            <br>
+                            <br>
+                            <br>
                         </div>
                             <div class="col-sm-6">
                                 <div class="carousel-content">
@@ -89,58 +91,58 @@ Naslovna stranica
 
     <section id="feature" >
         <div class="container">
-           <div class="center wow fadeInDown">
+           <!--<div class="center wow fadeInDown">
                 <h2>Features</h2>
                 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
-            </div>
+            </div>-->
 
             <div class="row">
                 <div class="features">
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
-                            <i class="fa fa-graduation-cap"></i>
-                            <h2>Fresh and Clean</h2>
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
-                        </div>
-                    </div><!--/.col-md-4-->
-
-                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="feature-wrap">
-                            <i class="fa fa-map-marker"></i>
-                            <h2>Retina ready</h2>
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
-                        </div>
-                    </div><!--/.col-md-4-->
-
-                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="feature-wrap">
-                            <i class="fa fa-question"></i>
-                            <h2>Easy to customize</h2>
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
-                        </div>
-                    </div><!--/.col-md-4-->
-                
-                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="feature-wrap">
                             <i class="fa fa-truck"></i>
-                            <h2>Adipisicing elit</h2>
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+                            <h2>Trenutna isporuka</h2>
+                            <h3>Na skladištu više od 100 000 jedinica robe</h3>
                         </div>
                     </div><!--/.col-md-4-->
 
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
                             <i class="fa fa-car"></i>
-                            <h2>Sed do eiusmod</h2>
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+                            <h2>Parking</h2>
+                            <h3>Osigurana parkirališna mjesta za sve vrste vozila</h3>
                         </div>
                     </div><!--/.col-md-4-->
 
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
-                            <i class="fa fa-binoculars"></i>
-                            <h2>Labore et dolore</h2>
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+                            <i class="fa fa-map-marker"></i>
+                            <h2>Lokacija</h2>
+                            <h3>Neposredna blizina najfrekventnije avenije u Hrvatskoj</h3>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <i class="fa fa-thumbs-up"></i>
+                            <h2>Fleksibilni uvjeti</h2>
+                            <h3>Količinski i predračunski rabati</h3>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <i class="fa fa-graduation-cap"></i>
+                            <h2>Iskustvo</h2>
+                            <h3>Dvadesetogodišnje akumulirane povratne informacije s tržišta</h3>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <i class="fa fa-question"></i>
+                            <h2>Savjetovanje</h2>
+                            <h3>Stručne informacije i profesionalni pristup</h3>
                         </div>
                     </div><!--/.col-md-4-->
                 </div><!--/.services-->
@@ -215,7 +217,6 @@ Naslovna stranica
         <div class="container">
             <div class="center wow fadeInDown">
                 <h2>Naši partneri</h2>
-                <p class="lead"></p>
             </div>    
             
             <div class="partners">
