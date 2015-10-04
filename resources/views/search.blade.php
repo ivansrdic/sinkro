@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('title')
-Pretraga
+Ponuda
 @stop
     
 @section('main')
@@ -19,7 +19,7 @@ Pretraga
                   <div class="panel-heading active">
                     <h3 class="panel-title">
                       <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-                        Tip industrije
+                        Namjena
                         <i class="fa fa-angle-right pull-right"></i>
                       </a>
                     </h3>
@@ -43,7 +43,7 @@ Pretraga
                   <div class="panel-heading">
                     <h3 class="panel-title">
                       <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-                        Tip proizvoda
+                        Vrsta proizvoda
                         <i class="fa fa-angle-right pull-right"></i>
                       </a>
                     </h3>
@@ -121,12 +121,13 @@ Pretraga
             <div class="product-list-item">
                 <div class="row">
                   <div class="col-xs-12 product-list-content">
-                    <div class="col-xs-3">
+                    <div class="col-xs-5 col-md-4">
                       <a href="{{ route('product', ['id' => $product->ID, 'name' => str_replace(' ', '-', $product->model)]) }}"><img class="img-responsive product-list-item-img" src="{{ asset('images/products/thumbnails/'.$product->image) }}" alt="{{ $product->model }}" /></a>
                     </div>
-                    <div class="col-xs-9">
+                    <div class="col-xs-7 col-md-8">
                       <h2><a href="{{ route('product', ['id' => $product->ID, 'name' => str_replace(' ', '-', $product->model)]) }}">{{ $product->model }}</a></h2>
-                      <h3>{{ $product->description_en }}</h3>
+                      <span>Promjer: {{ $product->diameter }}mm</span><br>
+                      <span>Nosivost: {{ $product->carrying_capacity }}kg</span><br><br>
                       <a class="btn btn-primary readmore" href="{{ route('product', ['id' => $product->ID, 'name' => str_replace(' ', '-', $product->model)]) }}">Detaljnije <i class="fa fa-angle-right"></i></a>
                     </div>
                   </div>

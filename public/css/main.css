@@ -11,10 +11,6 @@
 }
 #product h1 {
   color: #000000;
-  margin: 0;
-}
-#product h3 {
-  color: #000000;
   margin-top: 0;
 }
 #product .product-feature {
@@ -34,6 +30,7 @@
 #product .product-details {
   margin-top: 40px;
 }
+
 
 
 /*************************

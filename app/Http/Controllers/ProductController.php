@@ -19,7 +19,8 @@ class ProductController extends Controller {
 		$productType = ProductTypes::find($product->category);
 		$product->category_name_hr = $productType->name_hr;
 		if($product->industry) $product->industry_name_hr = IndustryTypes::find($product->industry)->name;
-		$features = ['width',
+		$features = ['diameter',
+						'width',
 						'height',
 						'carrying_capacity',
 						'hole_diameter',
@@ -46,7 +47,8 @@ class ProductController extends Controller {
 						'stainless',
 						'chrome'];
 
-		$features_hr = ['width' => 'širina',
+		$features_hr = ['diameter' => 'promjer',
+						'width' => 'širina',
 						'height',
 						'carrying_capacity',
 						'hole_diameter',
@@ -76,15 +78,11 @@ class ProductController extends Controller {
 		$details = ['manufacturer_name',
 						'category_name_hr',
 						'industry_name_hr',
-						'description_en',
-						'description_hr',
 						'heat_resistance'];
 
 		$details_hr = ['manufacturer_name' => 'Naziv proizvođača',
-						'category_name_hr' => 'Tip proizvoda',
-						'industry_name_hr' => 'Tip industrije',
-						'description_en' => 'Opis (en)',
-						'description_hr' => 'Opis (hr)',
+						'category_name_hr' => 'Vrsta proizvoda',
+						'industry_name_hr' => 'Namjena',
 						'heat_resistance' => 'Otpornost na toplinu'];
 
 		return view('product', 

@@ -13,7 +13,7 @@
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li><a href="{{ route('home') }}">Naslovnica</a></li>
-                        <li><a href="{{ route('search') }}">Pretraga</a></li>
+                        <li><a href="{{ route('search') }}">Ponuda</a></li>
                         <li><a href="{{ route('aboutus') }}">O nama</a></li>
                         <li><a href="{{ route('contact') }}">Kontakt</a></li>                        
                     </ul>

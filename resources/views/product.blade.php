@@ -15,7 +15,6 @@
     </div>
     <div class="col-md-9">
       <h1>{{ $product->model }}</h1>
-      <h3>{{ $product->description_en }}</h3>
       <div class="product-features row">
         @foreach ($features as $feature)
           @if($product[$feature])
