@@ -8,7 +8,7 @@
                 <ul class="pull-right">
                     <li><a href="{{ route('home') }}">Naslovnica</a></li>
                     <li><a href="{{ route('aboutus') }}">O nama</a></li>
-                    <li><a href="{{ route('search') }}">Pretraga</a></li>
+                    <li><a href="{{ route('search') }}">Ponuda</a></li>
                     <li><a href="{{ route('contact') }}">Kontakt</a></li>
                 </ul>
             </div>

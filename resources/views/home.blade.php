@@ -28,9 +28,9 @@ Naslovna stranica
                         </div>
                             <div class="col-sm-6">
                                 <div class="carousel-content">
-                                    <h1 class="animation animated-item-1">Sinkro d.o.o.</h1>
-                                    <h2 class="animation animated-item-2">Dobro došli na naše stranice!</h2>
-                                    <a class="btn-slide animation animated-item-3" href="{{ route('aboutus') }}">Ponuda</a>
+                                    <h1 class="animation animated-item-1" style="text-shadow: 2px 2px #151515;">Sinkro d.o.o.</h1>
+                                    <h2 class="animation animated-item-2" style="text-shadow: 1px 1px #151515;">Dobro došli na naše stranice!</h2>
+                                    <a class="btn-slide animation animated-item-3" href="{{ route('aboutus') }}">O nama</a>
                                 </div>
                             </div>
 
@@ -45,8 +45,8 @@ Naslovna stranica
                         <div class="row slide-margin">
                             <div class="col-sm-6">
                                 <div class="carousel-content">
-                                    <h1 class="animation animated-item-1" style=" -webkit-text-stroke: 1px #3498db;">Široka ponuda</h1>
-                                    <h2 class="animation animated-item-2">Istražite našu raznovrsnu ponudu svih vrsta industrijskih kotača i kotačića.</h2>
+                                    <h1 class="animation animated-item-1" style="text-shadow: 2px 2px #151515;">Široka ponuda</h1>
+                                    <h2 class="animation animated-item-2" style="text-shadow: 1px 1px #151515;">Istražite našu raznovrsnu ponudu svih vrsta industrijskih kotača i kotačića.</h2>
                                     <a class="btn-slide animation animated-item-3" href="{{ route('search') }}">Ponuda</a>
                                 </div>
                             </div>
@@ -66,9 +66,9 @@ Naslovna stranica
                         <div class="row slide-margin">
                             <div class="col-sm-6">
                                 <div class="carousel-content">
-                                    <h1 class="animation animated-item-1">Kontaktirajte nas</h1>
-                                    <h2 class="animation animated-item-2">Ukoliko imate pitanja u vezi naše ponude ili Vam trebaju dodatne informacije slobodno nam se obratite</h2>
-                                    <a class="btn-slide animation animated-item-3" href="{{ route('contact') }}">Contact</a>
+                                    <h1 class="animation animated-item-1" style="text-shadow: 2px 2px #151515;">Kontaktirajte nas</h1>
+                                    <h2 class="animation animated-item-2" style="text-shadow: 1px 1px #151515;">Ukoliko imate pitanja u vezi naše ponude ili Vam trebaju dodatne informacije slobodno nam se obratite</h2>
+                                    <a class="btn-slide animation animated-item-3" href="{{ route('contact') }}">Kontakt</a>
                                 </div>
                             </div>
                             <div class="col-sm-6 hidden-xs animation animated-item-4">
@@ -216,7 +216,7 @@ Naslovna stranica
     <section id="partner">
         <div class="container">
             <div class="center wow fadeInDown">
-                <h2>Naši partneri</h2>
+                <h2 style="text-shadow: 2px 2px #151515;">Naši partneri</h2>
             </div>    
             
             <div class="partners">
