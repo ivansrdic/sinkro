@@ -17,7 +17,7 @@ Naslovna stranica
                     <div class="container">
                         <div class="row slide-margin">
                         <div class="row">
-                            <div class="col-sm-3 hidden-xs animation animated-item-4 col-sm-offset-0">
+                            <div class="col-xs-8 col-sm-3 animation animated-item-4 col-sm-offset-0">
                                 <div class="slider-img">
                                     <img src="{{ asset('images/logo/sinkro_logo.png') }}" class="img-responsive">
                                 </div>

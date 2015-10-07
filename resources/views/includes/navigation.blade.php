@@ -7,7 +7,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="{{ route('home') }}">Sinkro d.o.o.<img src="{{ asset('images/logo/sinkro_logo.png') }}" alt="logo"></a>
+                    <a class="navbar-brand" href="{{ route('home') }}">Sinkro d.o.o.<img src="{{ asset('images/logo/sinkro_logo.png') }}" alt="logo" class="hidden-xs show-sm"></a>
                 </div>
                 
                 <div class="collapse navbar-collapse navbar-right">
