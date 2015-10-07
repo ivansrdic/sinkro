@@ -1066,7 +1066,6 @@ a.accordion-toggle  i{
 /*************************
 ********* About Us Page CSS ******
 **************************/
-
 .about-us {
   margin-top: 110px;
   margin-bottom: -110px;
@@ -1088,11 +1087,14 @@ a.accordion-toggle  i{
   font-size: 16px;
 
 }
+
+
 #carousel-slider {
   position: relative;
 }
 
-#carousel-slider .carousel-indicators {
+#carousel-slider .
+dicators {
   bottom: -25px;
 }
 

@@ -28,8 +28,8 @@ Naslovna stranica
                         </div>
                             <div class="col-sm-6">
                                 <div class="carousel-content">
-                                    <h1 class="animation animated-item-1" style="text-shadow: 2px 2px #151515;">Sinkro d.o.o.</h1>
-                                    <h2 class="animation animated-item-2" style="text-shadow: 1px 1px #151515;">Dobro došli na naše stranice!</h2>
+                                    <h1 class="animation animated-item-1" style="text-shadow: 3px 3px #151515;">Sinkro d.o.o.</h1>
+                                    <h2 class="animation animated-item-2" style="text-shadow: 2px 2px #151515;">Dobro došli na naše stranice!</h2>
                                     <a class="btn-slide animation animated-item-3" href="{{ route('aboutus') }}">O nama</a>
                                 </div>
                             </div>
@@ -45,8 +45,8 @@ Naslovna stranica
                         <div class="row slide-margin">
                             <div class="col-sm-6">
                                 <div class="carousel-content">
-                                    <h1 class="animation animated-item-1" style="text-shadow: 2px 2px #151515;">Široka ponuda</h1>
-                                    <h2 class="animation animated-item-2" style="text-shadow: 1px 1px #151515;">Istražite našu raznovrsnu ponudu svih vrsta industrijskih kotača i kotačića.</h2>
+                                    <h1 class="animation animated-item-1" style="text-shadow: 3px 3px #151515;">Široka ponuda</h1>
+                                    <h2 class="animation animated-item-2" style="text-shadow: 2px 2px #151515;">Istražite našu raznovrsnu ponudu svih vrsta industrijskih kotača i kotačića.</h2>
                                     <a class="btn-slide animation animated-item-3" href="{{ route('search') }}">Ponuda</a>
                                 </div>
                             </div>
@@ -67,7 +67,7 @@ Naslovna stranica
                             <div class="col-sm-6">
                                 <div class="carousel-content">
                                     <h1 class="animation animated-item-1" style="text-shadow: 2px 2px #151515;">Kontaktirajte nas</h1>
-                                    <h2 class="animation animated-item-2" style="text-shadow: 1px 1px #151515;">Ukoliko imate pitanja u vezi naše ponude ili Vam trebaju dodatne informacije slobodno nam se obratite</h2>
+                                    <h2 class="animation animated-item-2" style="text-shadow: 2px 2px #151515;">Ukoliko imate pitanja u vezi naše ponude ili Vam trebaju dodatne informacije slobodno nam se obratite</h2>
                                     <a class="btn-slide animation animated-item-3" href="{{ route('contact') }}">Kontakt</a>
                                 </div>
                             </div>
@@ -152,16 +152,11 @@ Naslovna stranica
 
     <section id="recent-works">
         <div class="container">
-            <div class="center wow fadeInDown">
-                <h2>Recent Works</h2>
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
-            </div>
-
-           <div class="row">
+           <div class="center wow fadeInDown row">
                 <div class="col-xs-12 col-sm-4">
                     <a href="images/portfolio/full/skladiste1v.jpg" rel="prettyPhoto">
                         <div class="warehouse">
-                            <img class="img-responsive" src="http://projects.ivansrdic.com.hr/images/portfolio/recent/skladiste1.jpg" alt="">
+                            <img class="img-responsive" src="images/portfolio/recent/skladiste1.jpg" alt="">
                         </div>
                     </a>
                 </div>
@@ -169,7 +164,7 @@ Naslovna stranica
                 <div class="col-xs-12 col-sm-4">
                     <a href="images/portfolio/full/kotaci4v.jpg" rel="prettyPhoto">
                         <div class="warehouse">
-                            <img class="img-responsive" src="http://projects.ivansrdic.com.hr/images/portfolio/recent/kotaci4.jpg" alt="">
+                            <img class="img-responsive" src="images/portfolio/recent/kotaci4.jpg" alt="">
                         </div>
                     </a>
                 </div> 
@@ -177,17 +172,17 @@ Naslovna stranica
                 <div class="col-xs-12 col-sm-4">
                     <a href="images/portfolio/full/kotaci1v.jpg" rel="prettyPhoto">
                         <div class="warehouse">
-                            <img class="img-responsive" src="http://projects.ivansrdic.com.hr/images/portfolio/recent/kotaci1.jpg" alt="">
+                            <img class="img-responsive" src="images/portfolio/recent/kotaci1.jpg" alt="">
                         </div>
                     </a>
                 </div>   
             </div>
 
-                <div class="row">
+                <div class="row center wow fadeInDown">
                 <div class="col-xs-12 col-sm-4">
                     <a href="images/portfolio/full/kotaci2v.jpg" rel="prettyPhoto">
                         <div class="warehouse">
-                            <img class="img-responsive" src="http://projects.ivansrdic.com.hr/images/portfolio/recent/kotaci2.jpg" alt="">
+                            <img class="img-responsive" src="images/portfolio/recent/kotaci2.jpg" alt="">
                         </div>
                     </a>
                 </div>
@@ -195,7 +190,7 @@ Naslovna stranica
                 <div class="col-xs-12 col-sm-4">
                     <a href="images/portfolio/full/kotaci3v.jpg" rel="prettyPhoto">
                         <div class="warehouse">
-                            <img class="img-responsive" src="http://projects.ivansrdic.com.hr/images/portfolio/recent/kotaci3.jpg" alt="">
+                            <img class="img-responsive" src="images/portfolio/recent/kotaci3.jpg" alt="">
                         </div>
                     </a>
                 </div> 
@@ -203,7 +198,7 @@ Naslovna stranica
                 <div class="col-xs-12 col-sm-4">
                     <a href="images/portfolio/full/skladiste2v.jpg" rel="prettyPhoto">
                         <div class="warehouse">
-                            <img class="img-responsive" src="http://projects.ivansrdic.com.hr/images/portfolio/recent/skladiste2.jpg" alt="">
+                            <img class="img-responsive" src="images/portfolio/recent/skladiste2.jpg" alt="">
                         </div>
                     </a>
                 </div>   
@@ -220,18 +215,21 @@ Naslovna stranica
             </div>    
             
             <div class="partners">
-            <div class="row col-sm-12 col-sm-offset-3">
-                <ul >
-                    <li style="width: 50%;"> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" src="{{ asset('images/partners/kama.png') }}"></a></li>
-                </ul>
-            </div>
-            <div class="row col-sm-12 col-sm-offset-1">
-                <ul>
-                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms" src="{{ asset('images/partners/rollyx.png') }}" style="width: 40%;"></a></li>
-                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms" src="{{ asset('images/partners/orko.png') }}"></a></li>
-                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1500ms" src="{{ asset('images/partners/lag.png') }}" style="width: 25%;"></a></li>
-                </ul>
-            </div>
+                <div class="row col-xs-8 col-md-8 col-lg-8 col-xs-offset-2 col-md-offset-2 col-lg-offset-3">
+                        <img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" src="{{ asset('images/partners/kama.png') }}">
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-6 col-md-3 col-xs-offset-4 col-md-offset-2">
+                        <img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms" src="{{ asset('images/partners/rollyx.png') }}">
+                    </div>
+                    <div class="col-xs-6 col-md-3 col-xs-offset-3 col-md-offset-0">
+                        <img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms" src="{{ asset('images/partners/orko.png') }}">
+                    </div>
+                    <div class="col-xs-6 col-md-3 col-xs-offset-4 col-md-offset-0">
+                        <img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1500ms" src="{{ asset('images/partners/lag.png') }}" >
+                    </div>
+                </div>
             </div>        
         </div><!--/.container-->
     </section><!--/#partner-->

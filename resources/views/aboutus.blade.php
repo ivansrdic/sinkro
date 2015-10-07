@@ -8,9 +8,13 @@ O nama
 
 
 
+        <div class="container-fluid no-margin">
+            <img src="images/gallery/slika1.jpg" class="img-responsive">
+        </div>
+
 <section id="about-us">
         <div class="container">
-            <div class="center wow fadeInDown">
+            <div class="center wow fadeInDown margin">
                 <h2>O nama</h2>
                 <p class="lead">Poduzeće Sinkro d.o.o. posluje u Hrvatskoj od 1993. godine.<br>Dugogodišnji smo ekskluzivni zastupnici tvornice Kama, Istanbul, Turska.</p>
             </div>
