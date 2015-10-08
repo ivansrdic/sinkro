@@ -6,7 +6,7 @@ Kontakt
    
 @section('main')
     <section id="contact-info">
-        <div id="map" style="height:500px" data-latitude="45.8316833" data-longitude="16.0036309">
+        <div id="map">
         </div>
     </section>  <!--/gmap_area -->
 

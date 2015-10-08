@@ -1962,6 +1962,17 @@ ul.social_icons li  a i{
   padding: 0 0 40px;
 }
 
+@media (min-width: 768px) {
+#map {
+  height: 500px;
+}
+}
+@media (max-width: 767px) {
+#map {
+  height: 200px;
+}
+}
+
 #contact-page{
   padding-top: 0;
 }
