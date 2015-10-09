@@ -24,8 +24,9 @@ Kontakt
                 </div>
                 <div class="col-sm-5">
                     <p><i class="glyphicon glyphicon-earphone"></i> +385 1 3866 631</p>
-                    <p><abbr><b>Fax</b></abbr>: +385 1 3866 630</p>
-                    <p><abbr><b>OIB</b></abbr>: 7216307999</p>
+                    <p><i class="glyphicon glyphicon-earphone"></i> +385 1 3866 632</p>
+                    <p><b>Fax</b>: +385 1 3866 630</p>
+                    <p><b>OIB</b>: 7216307999</p>
                 </div>
             </div>
             <div class="center">        
