@@ -1,9 +1,11 @@
 jQuery(function($) {'use strict',
 
 	//#main-slider
-	$(function(){
-		$('#main-slider.carousel').carousel({
-			interval: 8000
+	$(document).ready(function() {
+		$('#main-slider').find('.carousel').carousel({
+			interval: 8000,
+			pause: false,
+			wrap: true
 		});
 	});
 
