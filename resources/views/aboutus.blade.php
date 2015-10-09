@@ -22,8 +22,6 @@ O nama
                     <div class="col-sm-12 col-md-6 col-md-offset-3 aboutus">
                         <p>Kama je jedan od najrenomiranijih proizvođača industrijskih kotača, čija proizvodnja pokriva najširu mogućnost aplikacije takvih proizvoda, tako da se u našoj ponudi nalaze razni kotači i kotačići, industrijski kotači, okretni kotači, fiksni kotači, kotači sa kočnicom, kotači za namještaj itd.</p>
                     </div>
-                </div>
-                <div class="row">
                     <div class="col-sm-12 col-md-6 col-md-offset-3 aboutus">
                         <p>Naše dobro opskrbljeno skladište gotovih proizvoda omogućuje Vam trenutnu isporuku najvećeg dijela asortimana, a skladište poluproizvoda omogućava nam da profesionalnim kompletiranjem i montažom različitih komponenti zadovoljimo i najsofisticiranije zahtjeve.</p>
                     </div>
