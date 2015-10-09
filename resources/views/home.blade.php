@@ -13,7 +13,7 @@ Naslovna stranica
                 <li data-target="#main-slider" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
-                <div class="item active" style="background-image: url(images/slider/bg1.jpg)">
+                <div class="item active" style="background-image: url({{ asset('images/slider/pozadina1.jpg') }})">
                     <div class="container">
                         <div class="row slide-margin">
                         <div class="row">
@@ -40,7 +40,7 @@ Naslovna stranica
                     </div>
                 </div><!--/.item-->
 
-                <div class="item" style="background-image: url({{ asset('images/slider/bg2.jpg') }})">
+                <div class="item" style="background-image: url({{ asset('images/slider/pozadina2.jpg') }})">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
@@ -51,17 +51,13 @@ Naslovna stranica
                                 </div>
                             </div>
 
-                            <div class="col-sm-6 hidden-xs animation animated-item-4">
-                                <div class="slider-img">
-                                    <!--<img src="{{ asset('images/slider/img2.png') }}" class="img-responsive">-->
-                                </div>
-                            </div>
+                            
 
                         </div>
                     </div>
                 </div><!--/.item-->
 
-                <div class="item" style="background-image: url(images/slider/bg3.jpg)">
+                <div class="item" style="background-image: url({{ asset('images/slider/pozadina3.jpg') }})">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
