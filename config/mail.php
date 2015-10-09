@@ -54,7 +54,7 @@ return [
     |
     */
 
-    'from' => ['address' => "kontakt@ivansrdic.me", 'name' => "Ivan Srdić"],
+    'from' => ['address' => "info@sinkro.hr", 'name' => "Sinkro d.o.o."],
 
     /*
     |--------------------------------------------------------------------------
@@ -80,7 +80,7 @@ return [
     |
     */
 
-    'username' => env('MAIL_USERNAME', "kontakt@ivansrdic.me"),
+    'username' => env('MAIL_USERNAME', "info@sinkro.hr"),
 
     /*
     |--------------------------------------------------------------------------
@@ -93,7 +93,7 @@ return [
     |
     */
 
-    'password' => env('MAIL_PASSWORD', "cho20anycil"),
+    'password' => env('MAIL_PASSWORD', "Kakvamacakaosan1"),
 
     /*
     |--------------------------------------------------------------------------

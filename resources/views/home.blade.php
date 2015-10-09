@@ -40,7 +40,7 @@ Naslovna stranica
                     </div>
                 </div><!--/.item-->
 
-                <div class="item" style="background-image: url(images/slider/bg2.jpg)">
+                <div class="item" style="background-image: url({{ asset('images/slider/bg2.jpg') }})">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
