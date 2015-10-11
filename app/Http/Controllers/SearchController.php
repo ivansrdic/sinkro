@@ -17,7 +17,7 @@ class SearchController extends Controller {
 		//var_dump(IndustryTypes::find(1)->name_hr);
 
 		$products = $this->getProducts($request);
-		$products->setPath('pretraga');
+		$products->setPath('ponuda');
 
 		return view('search', 
 			['industryTypes' => IndustryTypes::all(),

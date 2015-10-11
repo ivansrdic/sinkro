@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('title')
-Naslovna stranica
+Kotači i Kotačići
 @stop
     
 @section('main')

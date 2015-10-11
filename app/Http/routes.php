@@ -15,8 +15,8 @@ Route::get('/', ['as' => 'home', 'uses' => 'HomeController@index']);
 
 Route::get('/onama', ['as' => 'aboutus', 'uses' => 'AboutusController@index']);
 
-Route::get('/pretraga', ['as' => 'search', 'uses' => 'SearchController@index']);
-Route::post('/pretraga', ['as' => 'searchPost', 'uses' => 'SearchController@searchPost']);
+Route::get('/ponuda', ['as' => 'search', 'uses' => 'SearchController@index']);
+Route::post('/ponuda', ['as' => 'searchPost', 'uses' => 'SearchController@searchPost']);
 
 Route::get('/proizvod/{id}/{name}', ['as' => 'product', 'uses' => 'ProductController@index']);
 

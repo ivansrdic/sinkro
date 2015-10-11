@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('title')
-Ponuda
+Ponuda kotača i kotačića
 @stop
     
 @section('main')

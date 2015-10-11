@@ -1,2 +1,17 @@
 RewriteEngine on
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
 RewriteRule !^public(/|$) public%{REQUEST_URI} [L]
+
+
+Redirect 301 /kontakt.php /kontakt
+Redirect 301 /mala_nosivost_celicni.php /ponuda?p=&tp%5B%5D=1
+Redirect 301 /mala_nosivost_plasticni.php /ponuda?p=&tp%5B%5D=1
+Redirect 301 /srednja_nosivost.php /ponuda?p=&tp%5B%5D=2
+Redirect 301 /velika_nosivost.php /ponuda?p=&tp%5B%5D=3
+Redirect 301 /opruge.php /ponuda?p=&tp%5B%5D=2&tp%5B%5D=3
+Redirect 301 /kotaci.php /ponuda?p=&tp%5B%5D=1
+Redirect 301 /proizvod2.php /ponuda?
+Redirect 301 /proizvod3.php /ponuda?
+Redirect 301 /castors /ponuda

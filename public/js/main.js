@@ -44,7 +44,7 @@ jQuery(function($) {'use strict',
 	var form = $('#main-contact-form');
 	form.submit(function(event){
 		event.preventDefault();
-		var form_status = $('<div class="form_status"></div>');
+		var form_status = $('<div class="form_status col-sm-10 col-sm-offset-1"></div>');
 		$.ajax({
 			url: $(this).attr('action'),
 			method: 'post',
@@ -61,10 +61,13 @@ jQuery(function($) {'use strict',
 		    },
 
 			beforeSend: function(){
-				form.prepend( form_status.html('<p><i class="fa fa-spinner fa-spin"></i> Email is sending...</p>').fadeIn() );
+				form.prepend( form_status.html('<p><i class="fa fa-spinner fa-spin"></i> Slanje poruke...</p>').fadeIn() );
 			}
-		}).done(function(data){
-			form_status.html('<p class="text-success">' + data.message + '</p>').delay(3000).fadeOut();
+		}).done(function(response){
+			if(response.status)
+				form_status.html('<p class="text-success">' + response.message + '</p>').delay(3000).fadeOut();
+			else
+				form_status.html('<p class="text-danger">' + response.message + '</p>').delay(3000).fadeOut();
 		});
 	});
 

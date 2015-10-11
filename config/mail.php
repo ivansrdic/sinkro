@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'driver' => env('MAIL_DRIVER', 'smtp'),
+    'driver' => env('MAIL_DRIVER', 'mail'),
 
     /*
     |--------------------------------------------------------------------------
@@ -93,7 +93,7 @@ return [
     |
     */
 
-    'password' => env('MAIL_PASSWORD', "Kakvamacakaosan1"),
+    'password' => env('MAIL_PASSWORD', "dinamo1986"),
 
     /*
     |--------------------------------------------------------------------------

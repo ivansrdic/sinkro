@@ -4,7 +4,7 @@
         @include('includes.head')
 
         <title>
-            Sinkro d.o.o. - @yield('title')
+            @yield('title') - Sinkro d.o.o.
         </title>
     </head>
     <body>

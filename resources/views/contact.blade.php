@@ -32,8 +32,7 @@ Kontakt
             <div class="center">        
                 <h2>Pošaljite nam poruku</h2>
             </div> 
-            <div class="row contact-wrap"> 
-                <div class="form_status alert alert-success" style="display: none"></div>
+            <div class="row contact-wrap">
                 <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="{{ route('sendMail') }}">
                     <div class="col-sm-5 col-sm-offset-1">
                         <div class="form-group">
