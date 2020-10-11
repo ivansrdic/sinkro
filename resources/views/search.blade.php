@@ -3,7 +3,7 @@
 @section('title')
 Ponuda kotača i kotačića
 @stop
-    
+
 @section('main')
   <section id="product-list" class="container">
     <div class="product-list">
@@ -131,7 +131,7 @@ Ponuda kotača i kotačića
                       <a class="btn btn-primary readmore" href="{{ route('product', ['id' => $product->ID, 'name' => str_replace(' ', '-', $product->model)]) }}">Detaljnije <i class="fa fa-angle-right"></i></a>
                     </div>
                   </div>
-                </div>    
+                </div>
             </div><!--/.product-list-item-->
             @endforeach
 

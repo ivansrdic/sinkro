@@ -3,7 +3,7 @@
 @section('title')
 Kotači i Kotačići
 @stop
-    
+
 @section('main')
     <section id="main-slider" class="no-margin">
         <div class="carousel slide">
@@ -34,7 +34,7 @@ Kotači i Kotačići
                                 </div>
                             </div>
 
-                            
+
 
                         </div>
                     </div>
@@ -51,7 +51,7 @@ Kotači i Kotačići
                                 </div>
                             </div>
 
-                            
+
 
                         </div>
                     </div>
@@ -142,7 +142,7 @@ Kotači i Kotačići
                         </div>
                     </div><!--/.col-md-4-->
                 </div><!--/.services-->
-            </div><!--/.row-->    
+            </div><!--/.row-->
         </div><!--/.container-->
     </section><!--/#feature-->
 
@@ -163,7 +163,7 @@ Kotači i Kotačići
                             <img class="img-responsive" src="images/portfolio/recent/kotaci4.jpg" alt="">
                         </div>
                     </a>
-                </div> 
+                </div>
 
                 <div class="col-xs-12 col-sm-4">
                     <a href="images/portfolio/full/kotaci1v.jpg" rel="prettyPhoto">
@@ -171,7 +171,7 @@ Kotači i Kotačići
                             <img class="img-responsive" src="images/portfolio/recent/kotaci1.jpg" alt="">
                         </div>
                     </a>
-                </div>   
+                </div>
             </div>
 
                 <div class="row center wow fadeInDown">
@@ -189,7 +189,7 @@ Kotači i Kotačići
                             <img class="img-responsive" src="images/portfolio/recent/kotaci3.jpg" alt="">
                         </div>
                     </a>
-                </div> 
+                </div>
 
                 <div class="col-xs-12 col-sm-4">
                     <a href="images/portfolio/full/skladiste2v.jpg" rel="prettyPhoto">
@@ -197,9 +197,9 @@ Kotači i Kotačići
                             <img class="img-responsive" src="images/portfolio/recent/skladiste2.jpg" alt="">
                         </div>
                     </a>
-                </div>   
+                </div>
             </div>
-                </div>   
+                </div>
             </div><!--/.row-->
         </div><!--/.container-->
     </section><!--/#recent-works-->
@@ -208,8 +208,8 @@ Kotači i Kotačići
         <div class="container">
             <div class="center wow fadeInDown">
                 <h2 style="text-shadow: 2px 2px #151515;">Naši partneri</h2>
-            </div>    
-            
+            </div>
+
             <div class="partners">
                 <div class="row col-xs-8 col-md-8 col-lg-8 col-xs-offset-2 col-md-offset-2 col-lg-offset-3">
                         <img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" src="{{ asset('images/partners/kama.png') }}">
@@ -226,10 +226,9 @@ Kotači i Kotačići
                         <img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1500ms" src="{{ asset('images/partners/lag.png') }}" >
                     </div>
                 </div>
-            </div>        
+            </div>
         </div><!--/.container-->
     </section><!--/#partner-->
-
 @stop
 
 @section('footer')
