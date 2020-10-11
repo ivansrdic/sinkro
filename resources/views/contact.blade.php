@@ -3,7 +3,7 @@
 @section('title')
 Kontakt
 @stop
-   
+
 @section('main')
     <section id="contact-info">
         <div id="map">
@@ -11,7 +11,7 @@ Kontakt
     </section>  <!--/gmap_area -->
 
     <section id="contact-page">
-        <div class="container">    
+        <div class="container">
             <div class="row" style="padding-bottom: 40px;">
                 <div class="col-sm-10 col-sm-offset-1">
                     <h2>Sinkro d.o.o.</h2>
@@ -26,12 +26,12 @@ Kontakt
                     <p><i class="glyphicon glyphicon-earphone"></i> +385 1 3866 631</p>
                     <p><i class="glyphicon glyphicon-earphone"></i> +385 1 3866 632</p>
                     <p><b>Fax</b>: +385 1 3866 630</p>
-                    <p><b>OIB</b>: 7216307999</p>
+                    <p><b>OIB</b>: 72163607999</p>
                 </div>
             </div>
-            <div class="center">        
+            <div class="center">
                 <h2>Pošaljite nam poruku</h2>
-            </div> 
+            </div>
             <div class="row contact-wrap">
                 <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="{{ route('sendMail') }}">
                     <div class="col-sm-5 col-sm-offset-1">
@@ -50,7 +50,7 @@ Kontakt
                         <div class="form-group">
                             <label>Ime tvrtke</label>
                             <input type="text" id="contact-company" name="company" class="form-control">
-                        </div>                        
+                        </div>
                     </div>
                     <div class="col-sm-5">
                         <div class="form-group">
@@ -68,7 +68,7 @@ Kontakt
                             <button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Pošaljite poruku</button>
                         </div>
                     </div>
-                </form> 
+                </form>
             </div><!--/.row-->
         </div><!--/.container-->
     </section><!--/#contact-page-->
