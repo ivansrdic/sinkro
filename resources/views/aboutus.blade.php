@@ -5,8 +5,10 @@ O nama
 @stop
 
 @section('main')
-    <div class="container-fluid no-margin">
-        <img src="images/gallery/slika1.jpg" class="img-responsive">
+    <div class="container">
+        <div class="row about-img">
+            <img src="{{ asset('images/gallery/slika2.jpg') }}" class="img-responsive">
+        </div>
     </div>
 
     <section id="about-us">

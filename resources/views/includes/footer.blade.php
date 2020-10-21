@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
-                &copy; 2015 Sinkro. Sva prava pridržana.
+                &copy; 2020 Sinkro. Sva prava pridržana.
             </div>
             <div class="col-sm-6">
                 <ul class="pull-right">

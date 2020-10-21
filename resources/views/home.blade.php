@@ -13,19 +13,16 @@ Kotači i Kotačići
                 <li data-target="#main-slider" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
-                <div class="item active" style="background-image: url({{ asset('images/slider/pozadina1.jpg') }})">
+                <div class="item active" id="slider1">
                     <div class="container">
-                        <div class="row slide-margin">
-                        <div class="row">
+                        <div class="row slide-margin" id="slider-logo">
                             <div class="col-xs-8 col-sm-3 animation animated-item-4 col-sm-offset-0">
                                 <div class="slider-img">
                                     <img src="{{ asset('images/logo/sinkro_logo.png') }}" class="img-responsive">
                                 </div>
                             </div>
-                            <br>
-                            <br>
-                            <br>
                         </div>
+                        <div class="row slide-margin-small">
                             <div class="col-sm-6">
                                 <div class="carousel-content">
                                     <h1 class="animation animated-item-1" style="text-shadow: 3px 3px #151515;">Sinkro d.o.o.</h1>
@@ -33,14 +30,11 @@ Kotači i Kotačići
                                     <a class="btn-slide animation animated-item-3" href="{{ route('aboutus') }}">O nama</a>
                                 </div>
                             </div>
-
-
-
                         </div>
                     </div>
                 </div><!--/.item-->
 
-                <div class="item" style="background-image: url({{ asset('images/slider/pozadina2.jpg') }})">
+                <div class="item" id="slider2">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
@@ -50,14 +44,11 @@ Kotači i Kotačići
                                     <a class="btn-slide animation animated-item-3" href="{{ route('search') }}">Ponuda</a>
                                 </div>
                             </div>
-
-
-
                         </div>
                     </div>
                 </div><!--/.item-->
 
-                <div class="item" style="background-image: url({{ asset('images/slider/pozadina3.jpg') }})">
+                <div class="item" id="slider3">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
@@ -91,7 +82,6 @@ Kotači i Kotačići
                 <h2>Features</h2>
                 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
             </div>-->
-
             <div class="row">
                 <div class="features">
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
@@ -149,6 +139,30 @@ Kotači i Kotačići
     <section id="recent-works">
         <div class="container">
            <div class="center wow fadeInDown row">
+                <div class="col-xs-12 col-sm-4">
+                    <a href="images/portfolio/full/zgrada1v.jpg" rel="prettyPhoto">
+                        <div class="warehouse">
+                            <img class="img-responsive" src="images/portfolio/recent/zgrada1.jpg" alt="">
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-xs-12 col-sm-4">
+                    <a href="images/portfolio/full/zgrada2v.jpg" rel="prettyPhoto">
+                        <div class="warehouse">
+                            <img class="img-responsive" src="images/portfolio/recent/zgrada2.jpg" alt="">
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-xs-12 col-sm-4">
+                    <a href="images/portfolio/full/zgrada3v.jpg" rel="prettyPhoto">
+                        <div class="warehouse">
+                            <img class="img-responsive" src="images/portfolio/recent/zgrada3.jpg" alt="">
+                        </div>
+                    </a>
+                </div>
+
                 <div class="col-xs-12 col-sm-4">
                     <a href="images/portfolio/full/skladiste1v.jpg" rel="prettyPhoto">
                         <div class="warehouse">

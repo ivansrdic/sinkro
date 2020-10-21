@@ -29,6 +29,22 @@ Kontakt
                     <p><b>OIB</b>: 72163607999</p>
                 </div>
             </div>
+            <div class="row bottom-buffer">
+                <div class="col-sm-6">
+                    <a href="images/portfolio/full/kontakt1v.jpg" rel="prettyPhoto">
+                        <div class="contact-img">
+                            <img class="img-responsive" src="{{ asset('images/portfolio/recent/kontakt1.jpg') }}" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6">
+                    <a href="images/portfolio/full/kontakt2v.jpg" rel="prettyPhoto">
+                        <div class="contact-img">
+                            <img class="img-responsive" src="{{ asset('images/portfolio/recent/kontakt2.jpg') }}" alt="">
+                        </div>
+                    </a>
+                </div>
+            </div>
             <div class="center">
                 <h2>Pošaljite nam poruku</h2>
             </div>
